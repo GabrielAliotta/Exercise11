@@ -1,0 +1,22 @@
+This project gives a Manager Storage class that replace the default methods
+added by Xcode when you create a project with core data. This class called
+ManagerStorage gives the availability to check if the context was changed
+and the availability to save the current context.
+The methods are: 
+- (BOOL)contextHasChanges;
+- (void)saveContext;
+
+Second, and regarding the implementation of the entities, you can use the 
+"defines" gives by the header SynthesizeStorage.h. These defines are:
+# SYNTHESIZE_MANAGEDOBJECTCONTEXT: 
+  implement the getter to managedObjectContext property.
+# SYNTHESIZE_FETCHREQUEST(entityname, key):
+  implement the getter to fetchRequest property.
+# SYNTHESIZE_ENTITIES
+  implement the method entities.
+See the EntitieStorage class as example to implementation of the "defines"
+above.
+
+This project also provide a unit test case "testTimeStorage". This test
+add Time entities (see data model included in project) and save them
+in the DataBase
