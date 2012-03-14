@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A972DBB1510EEA100DA2225 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A972DBA1510EEA100DA2225 /* UIKit.framework */; };
+		4A972DBD1510EEA100DA2225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A972DBC1510EEA100DA2225 /* Foundation.framework */; };
+		4A972DBF1510EEA100DA2225 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A972DBE1510EEA100DA2225 /* CoreGraphics.framework */; };
+		4A972DC11510EEA100DA2225 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A972DC01510EEA100DA2225 /* CoreData.framework */; };
+		4A972DC71510EEA100DA2225 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A972DC51510EEA100DA2225 /* InfoPlist.strings */; };
+		4A972DCA1510EEA100DA2225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A972DC91510EEA100DA2225 /* main.m */; };
+		4A972DCD1510EEA100DA2225 /* Exercise11AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A972DCC1510EEA100DA2225 /* Exercise11AppDelegate.m */; };
+		4A972DD01510EEA200DA2225 /* Exercise11.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A972DCE1510EEA200DA2225 /* Exercise11.xcdatamodeld */; };
+		4A972DD31510EEA200DA2225 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A972DD11510EEA200DA2225 /* MainWindow.xib */; };
+		4A972DD61510EEA200DA2225 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A972DD51510EEA200DA2225 /* RootViewController.m */; };
+		4A972DD91510EEA200DA2225 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A972DD71510EEA200DA2225 /* RootViewController.xib */; };
+		4A972DE61510EEDE00DA2225 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A972DE51510EEDE00DA2225 /* Beer.m */; };
+		4A972DEF1510EF6600DA2225 /* AddBeerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A972DED1510EF6600DA2225 /* AddBeerViewController.m */; };
+		4A972DF01510EF6600DA2225 /* AddBeerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A972DEE1510EF6600DA2225 /* AddBeerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A972DB61510EEA100DA2225 /* Exercise11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A972DBA1510EEA100DA2225 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A972DBC1510EEA100DA2225 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A972DBE1510EEA100DA2225 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A972DC01510EEA100DA2225 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A972DC41510EEA100DA2225 /* Exercise11-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise11-Info.plist"; sourceTree = "<group>"; };
+		4A972DC61510EEA100DA2225 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A972DC81510EEA100DA2225 /* Exercise11-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise11-Prefix.pch"; sourceTree = "<group>"; };
+		4A972DC91510EEA100DA2225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A972DCB1510EEA100DA2225 /* Exercise11AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise11AppDelegate.h; sourceTree = "<group>"; };
+		4A972DCC1510EEA100DA2225 /* Exercise11AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise11AppDelegate.m; sourceTree = "<group>"; };
+		4A972DCF1510EEA200DA2225 /* Exercise11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exercise11.xcdatamodel; sourceTree = "<group>"; };
+		4A972DD21510EEA200DA2225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4A972DD41510EEA200DA2225 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4A972DD51510EEA200DA2225 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4A972DD81510EEA200DA2225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		4A972DE41510EEDE00DA2225 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		4A972DE51510EEDE00DA2225 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		4A972DEC1510EF6600DA2225 /* AddBeerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBeerViewController.h; sourceTree = "<group>"; };
+		4A972DED1510EF6600DA2225 /* AddBeerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBeerViewController.m; sourceTree = "<group>"; };
+		4A972DEE1510EF6600DA2225 /* AddBeerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddBeerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A972DB31510EEA100DA2225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A972DBB1510EEA100DA2225 /* UIKit.framework in Frameworks */,
+				4A972DBD1510EEA100DA2225 /* Foundation.framework in Frameworks */,
+				4A972DBF1510EEA100DA2225 /* CoreGraphics.framework in Frameworks */,
+				4A972DC11510EEA100DA2225 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A972DAB1510EEA100DA2225 = {
+			isa = PBXGroup;
+			children = (
+				4A972DC21510EEA100DA2225 /* Exercise11 */,
+				4A972DB91510EEA100DA2225 /* Frameworks */,
+				4A972DB71510EEA100DA2225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A972DB71510EEA100DA2225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A972DB61510EEA100DA2225 /* Exercise11.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A972DB91510EEA100DA2225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A972DBA1510EEA100DA2225 /* UIKit.framework */,
+				4A972DBC1510EEA100DA2225 /* Foundation.framework */,
+				4A972DBE1510EEA100DA2225 /* CoreGraphics.framework */,
+				4A972DC01510EEA100DA2225 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A972DC21510EEA100DA2225 /* Exercise11 */ = {
+			isa = PBXGroup;
+			children = (
+				4A972DCB1510EEA100DA2225 /* Exercise11AppDelegate.h */,
+				4A972DCC1510EEA100DA2225 /* Exercise11AppDelegate.m */,
+				4A972DD11510EEA200DA2225 /* MainWindow.xib */,
+				4A972DD41510EEA200DA2225 /* RootViewController.h */,
+				4A972DD51510EEA200DA2225 /* RootViewController.m */,
+				4A972DD71510EEA200DA2225 /* RootViewController.xib */,
+				4A972DCE1510EEA200DA2225 /* Exercise11.xcdatamodeld */,
+				4A972DE41510EEDE00DA2225 /* Beer.h */,
+				4A972DE51510EEDE00DA2225 /* Beer.m */,
+				4A972DEC1510EF6600DA2225 /* AddBeerViewController.h */,
+				4A972DED1510EF6600DA2225 /* AddBeerViewController.m */,
+				4A972DEE1510EF6600DA2225 /* AddBeerViewController.xib */,
+				4A972DC31510EEA100DA2225 /* Supporting Files */,
+			);
+			path = Exercise11;
+			sourceTree = "<group>";
+		};
+		4A972DC31510EEA100DA2225 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A972DC41510EEA100DA2225 /* Exercise11-Info.plist */,
+				4A972DC51510EEA100DA2225 /* InfoPlist.strings */,
+				4A972DC81510EEA100DA2225 /* Exercise11-Prefix.pch */,
+				4A972DC91510EEA100DA2225 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A972DB51510EEA100DA2225 /* Exercise11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A972DDC1510EEA200DA2225 /* Build configuration list for PBXNativeTarget "Exercise11" */;
+			buildPhases = (
+				4A972DB21510EEA100DA2225 /* Sources */,
+				4A972DB31510EEA100DA2225 /* Frameworks */,
+				4A972DB41510EEA100DA2225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercise11;
+			productName = Exercise11;
+			productReference = 4A972DB61510EEA100DA2225 /* Exercise11.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A972DAD1510EEA100DA2225 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A972DB01510EEA100DA2225 /* Build configuration list for PBXProject "Exercise11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A972DAB1510EEA100DA2225;
+			productRefGroup = 4A972DB71510EEA100DA2225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A972DB51510EEA100DA2225 /* Exercise11 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A972DB41510EEA100DA2225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A972DC71510EEA100DA2225 /* InfoPlist.strings in Resources */,
+				4A972DD31510EEA200DA2225 /* MainWindow.xib in Resources */,
+				4A972DD91510EEA200DA2225 /* RootViewController.xib in Resources */,
+				4A972DF01510EF6600DA2225 /* AddBeerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A972DB21510EEA100DA2225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A972DCA1510EEA100DA2225 /* main.m in Sources */,
+				4A972DCD1510EEA100DA2225 /* Exercise11AppDelegate.m in Sources */,
+				4A972DD01510EEA200DA2225 /* Exercise11.xcdatamodeld in Sources */,
+				4A972DD61510EEA200DA2225 /* RootViewController.m in Sources */,
+				4A972DE61510EEDE00DA2225 /* Beer.m in Sources */,
+				4A972DEF1510EF6600DA2225 /* AddBeerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A972DC51510EEA100DA2225 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A972DC61510EEA100DA2225 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A972DD11510EEA200DA2225 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A972DD21510EEA200DA2225 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4A972DD71510EEA200DA2225 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A972DD81510EEA200DA2225 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A972DDA1510EEA200DA2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A972DDB1510EEA200DA2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4A972DDD1510EEA200DA2225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise11/Exercise11-Prefix.pch";
+				INFOPLIST_FILE = "Exercise11/Exercise11-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A972DDE1510EEA200DA2225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise11/Exercise11-Prefix.pch";
+				INFOPLIST_FILE = "Exercise11/Exercise11-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A972DB01510EEA100DA2225 /* Build configuration list for PBXProject "Exercise11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A972DDA1510EEA200DA2225 /* Debug */,
+				4A972DDB1510EEA200DA2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A972DDC1510EEA200DA2225 /* Build configuration list for PBXNativeTarget "Exercise11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A972DDD1510EEA200DA2225 /* Debug */,
+				4A972DDE1510EEA200DA2225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A972DCE1510EEA200DA2225 /* Exercise11.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A972DCF1510EEA200DA2225 /* Exercise11.xcdatamodel */,
+			);
+			currentVersion = 4A972DCF1510EEA200DA2225 /* Exercise11.xcdatamodel */;
+			path = Exercise11.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A972DAD1510EEA100DA2225 /* Project object */;
+}

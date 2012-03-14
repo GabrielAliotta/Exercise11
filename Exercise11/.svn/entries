@@ -1,0 +1,126 @@
+10
+
+dir
+0
+https://pointabout.unfuddle.com/svn/pointabout_personal/asd/Exercise11/Exercise11
+https://pointabout.unfuddle.com/svn/pointabout_personal
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+be4316dc-696f-4caf-acd9-8e620f15692c
+
+main.m
+file
+
+
+
+add
+
+Exercise11AppDelegate.m
+file
+
+
+
+add
+
+AddBeerViewController.m
+file
+
+
+
+add
+
+Exercise11.xcdatamodeld
+dir
+
+
+
+add
+
+Beer.h
+file
+
+
+
+add
+
+AddBeerViewController.xib
+file
+
+
+
+add
+
+en.lproj
+dir
+
+
+
+add
+
+RootViewController.h
+file
+
+
+
+add
+
+Beer.m
+file
+
+
+
+add
+
+Exercise11AppDelegate.h
+file
+
+
+
+add
+
+AddBeerViewController.h
+file
+
+
+
+add
+
+Exercise11-Info.plist
+file
+
+
+
+add
+
+Exercise11-Prefix.pch
+file
+
+
+
+add
+
+RootViewController.m
+file
+
+
+
+add
+
