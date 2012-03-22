@@ -48,7 +48,7 @@
     self.navigationItem.leftBarButtonItem = cancelButton;
     [cancelButton release];
     
-    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithTitle:@"Save" style:UIBarButtonItemStyleDone target:self action:@selector(save)];
+    UIBarButtonItem *saveButton = [[UIBarButtonItem alloc] initWithTitle:@"Save" style:UIBarButtonItemStyleDone target:self action:@selector(save:)];
     self.navigationItem.rightBarButtonItem = saveButton;
     [saveButton release];
 }
@@ -78,7 +78,7 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
-- (void)save {
+- (IBAction)save:(id)sender {
     beer.name = myTextField.text;
     NSError *error = nil;
     if (![beer.managedObjectContext save:&error]) {

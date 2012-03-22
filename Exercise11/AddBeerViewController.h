@@ -17,5 +17,6 @@
 @property (nonatomic, retain) IBOutlet UITextField *myTextField;
 @property (nonatomic, retain) Beer * beer;
 
+- (IBAction)save:(id)sender;
 
 @end

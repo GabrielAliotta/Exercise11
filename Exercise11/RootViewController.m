@@ -33,6 +33,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+   	[self.tableView reloadData];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -174,9 +175,8 @@
     addBeerView.beer = (Beer *) newManagedObject;
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController: addBeerView];
     [self.navigationController presentModalViewController:navController animated:YES];
-    [addBeerView release];
-    
-	[self.tableView reloadData];
+    [addBeerView release];   
+
 }
 
 #pragma mark - Fetched results controller
